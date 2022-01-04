@@ -11,6 +11,14 @@
   </head>
 
   <body>
-    <%= yield %>
+   <header>
+    <p class= "main_title">Ruby on Ralis スケジュール管理アプリ</p>
+   </header>
+
+   <%= yield %>
+
+   <footer>
+   <p class= "main_title">今日の日付 <%= Date.today %></p> 
+   </footer>
   </body>
 </html>
